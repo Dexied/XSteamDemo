@@ -1,1 +1,0 @@
-"F:\UE4\UE_4.26\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -Plugin="F:\Projects\XSteamDemo\Plugins\XSteamMatchmaking\XSteamMatchmaking.uplugin" -Package="F:\Builds\XSteamBuild" -Rocket
