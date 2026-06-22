@@ -1,110 +1,129 @@
 Running AutomationTool...
-Using bundled DotNet SDK version: 8.0.412 win-x64
+Using bundled DotNet SDK version: 10.0 win-x64
 Starting AutomationTool...
 Parsing command line: BuildPlugin -Plugin=B:\Projects\XSteamDemo\Plugins\XSteam\XSteam.uplugin -Package=B:\Projects\XSteamDemo\Builds\XSteam -Rocket -2019
 Initializing script modules...
-Total script module initialization time: 0.24 s.
-Using B:\VisualStudio2022\MSBuild\Current\Bin\MSBuild.exe
+Total script module initialization time: 0.16 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
 Executing commands...
-Copying 323 file(s) using max 64 thread(s)
+Copying 101 file(s) using max 64 thread(s)
 Reading plugin from B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin...
 Building plugin for host platforms: Win64
-Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealEditor-Win64-Development.txt"
-Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealEditor-Win64-Development.txt
-Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
 UHT compiled-in object format Default
-Parsing headers for UnrealEditor
-  Running Internal UnrealHeaderTool B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEditor.uhtmanifest -WarningsAsErrors
-UHT processed UnrealEditor in 1.9883379 seconds (24 files written)
 Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
 Building UnrealEditor...
-Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
-  Executing up to 8 processes, one per physical core
-Using Unreal Build Accelerator local executor to run 8 action(s)
-  Storage capacity 40Gb
----- Starting trace: 251119_213435 ----
-UbaServer - Listening on 0.0.0.0:1345
-[1/8] Compile [x64] Module.XSteam.2.cpp
-[2/8] Compile [x64] Module.XSteam.1.cpp
-[3/8] Compile [x64] Module.XSteam.3.cpp
-[4/8] Compile [x64] Module.XSteam.4.cpp
-[5/8] Compile [x64] Module.XSteam.5.cpp
-[6/8] Link [x64] UnrealEditor-XSteam.lib
-[7/8] Link [x64] UnrealEditor-XSteam.dll
-[8/8] WriteMetadata UnrealEditor.target [NoUba]
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35228 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteam.cpp, XSteamFunctionLibrary.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 14 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 15.94 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/14] Compile Resource [x64] Default.rc2
+[2/14] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/14] Compile [x64] XSteamInventoryAsyncActions.cpp
+[4/14] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[5/14] Compile [x64] XSteamInventorySubsystem.cpp
+[6/14] Compile [x64] XSteamFunctionLibrary.cpp
+[7/14] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[8/14] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[9/14] Compile [x64] XSteam.cpp
+[10/14] Compile [x64] XSteamUserStatsSubsystem.cpp
+[11/14] Compile [x64] Module.XSteam.cpp
+[12/14] Link [x64] UnrealEditor-XSteam.lib
+[13/14] Link [x64] UnrealEditor-XSteam.dll
+[14/14] WriteMetadata UnrealEditor.target [NoUba]
 
-Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealEditor-Win64-Development.uba with size 4.4kb
-Total time in Unreal Build Accelerator local executor: 3.20 seconds
+Total time in Unreal Build Accelerator local executor: 37.03 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
 
 Result: Succeeded
-Total execution time: 16.18 seconds
-Took 16,60s to run dotnet.exe, ExitCode=0
-Building plugin for target platforms: Android, IOS, Linux, LinuxArm64, TVOS, Win64, VisionOS
-Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Development.txt"
-Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Development.txt
-Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
+Total execution time: 44.53 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 11.0kb
+Took 44,91s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
 UHT compiled-in object format Default
-Parsing headers for UnrealGame
-  Running Internal UnrealHeaderTool B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Intermediate\Build\Win64\UnrealGame\Development\UnrealGame.uhtmanifest -WarningsAsErrors
-UHT processed UnrealGame in 1.0568619 seconds (24 files written)
 Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
 Building UnrealGame...
-Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
-  Executing up to 8 processes, one per physical core
-Using Unreal Build Accelerator local executor to run 5 action(s)
-  Storage capacity 40Gb
----- Starting trace: 251119_213443 ----
-UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
-[1/5] Compile [x64] Module.XSteam.4.cpp
-[2/5] Compile [x64] Module.XSteam.2.cpp
-[3/5] Compile [x64] Module.XSteam.1.cpp
-[4/5] Compile [x64] Module.XSteam.3.cpp
-[5/5] Compile [x64] Module.XSteam.5.cpp
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35228 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteam.cpp, XSteamFunctionLibrary.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 15.31 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/9] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[2/9] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[3/9] Compile [x64] XSteamInventorySubsystem.cpp
+[4/9] Compile [x64] XSteamInventoryAsyncActions.cpp
+[5/9] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[6/9] Compile [x64] XSteamFunctionLibrary.cpp
+[7/9] Compile [x64] Module.XSteam.cpp
+[8/9] Compile [x64] XSteam.cpp
+[9/9] Compile [x64] XSteamUserStatsSubsystem.cpp
 
-Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealGame-Win64-Development.uba with size 4.0kb
-Total time in Unreal Build Accelerator local executor: 8.45 seconds
+Total time in Unreal Build Accelerator local executor: 9.69 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame.exe
 
 Result: Succeeded
-Total execution time: 12.18 seconds
-Took 12,36s to run dotnet.exe, ExitCode=0
-Running: B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\ThirdParty\DotNet\8.0.412\win-x64\dotnet.exe "B:\UnrealEngineSource\UnrealEngine\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Shipping.txt"
-Log file: B:\UnrealEngineSource\UnrealEngine\Engine\Programs\AutomationTool\Saved\Logs\UBA-UnrealGame-Win64-Shipping.txt
-Using 'git status' to determine working set for adaptive non-unity build (B:\UnrealEngineSource\UnrealEngine).
-UHT compiled-in object format Default
-Parsing headers for UnrealGame
-  Running Internal UnrealHeaderTool B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Intermediate\Build\Win64\UnrealGame\Shipping\UnrealGame.uhtmanifest -WarningsAsErrors
-UHT processed UnrealGame in 1.0148463 seconds (0 files written)
+Total execution time: 12.53 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 7.4kb
+Took 12,73s to run dotnet.exe, ExitCode=0
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
 Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml
 Building UnrealGame...
-Using Visual Studio 2022 14.44.35220 toolchain (B:\VisualStudio2022\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
-  Executing up to 8 processes, one per physical core
-Using Unreal Build Accelerator local executor to run 5 action(s)
-  Storage capacity 40Gb
----- Starting trace: 251119_213455 ----
-UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
-[1/5] Compile [x64] Module.XSteam.4.cpp
-[2/5] Compile [x64] Module.XSteam.2.cpp
-[3/5] Compile [x64] Module.XSteam.1.cpp
-[4/5] Compile [x64] Module.XSteam.3.cpp
-[5/5] Compile [x64] Module.XSteam.5.cpp
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35228 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteam.cpp, XSteamFunctionLibrary.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 9 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 14.88 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/9] Compile [x64] XSteamInventorySubsystem.cpp
+[2/9] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[3/9] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[4/9] Compile [x64] XSteamInventoryAsyncActions.cpp
+[5/9] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[6/9] Compile [x64] XSteamFunctionLibrary.cpp
+[7/9] Compile [x64] XSteam.cpp
+[8/9] Compile [x64] Module.XSteam.cpp
+[9/9] Compile [x64] XSteamUserStatsSubsystem.cpp
 
-Trace written to file B:/UnrealEngineSource/UnrealEngine/Engine/Programs/AutomationTool/Saved/Logs/UBA-UnrealGame-Win64-Shipping.uba with size 4.0kb
-Total time in Unreal Build Accelerator local executor: 8.45 seconds
+Total time in Unreal Build Accelerator local executor: 8.01 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame-Win64-Shipping.exe
 
 Result: Succeeded
-Total execution time: 12.05 seconds
-Took 12,22s to run dotnet.exe, ExitCode=0
+Total execution time: 9.53 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 7.1kb
+Took 9,68s to run dotnet.exe, ExitCode=0
 Reading filter rules from B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Config\FilterPlugin.ini
-Loading FilterPluginAndroid.ini
-Loading FilterPluginIOS.ini
-Loading FilterPluginLinux.ini
-Loading FilterPluginLinuxArm64.ini
-Loading FilterPluginTVOS.ini
 Loading FilterPluginWin64.ini
-Loading FilterPluginVisionOS.ini
 BUILD SUCCESSFUL
-AutomationTool executed for 0h 0m 41s
+AutomationTool executed for 0h 1m 8s
 AutomationTool exiting with ExitCode=0 (Success)
