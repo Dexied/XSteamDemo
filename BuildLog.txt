@@ -127,3 +127,456 @@ Loading FilterPluginWin64.ini
 BUILD SUCCESSFUL
 AutomationTool executed for 0h 1m 8s
 AutomationTool exiting with ExitCode=0 (Success)
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\XSteamDemo\Plugins\XSteam\XSteam.uplugin  " -Package=B:\Projects\XSteamDemo\Builds\XSteam -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.59 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 441 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteamFunctionLibrary.cpp, XSteamSubsystem.cpp, XSteamAppsAsyncActions.cpp, XSteamAppsSubsystem.cpp, XSteamAppTicketSubsystem.cpp, XSteamFriendsAsyncActions.cpp, XSteamFriendsSubsystem.cpp, XSteamHTTPAsyncActions.cpp, XSteamHTTPSubsystem.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamMatchmakingServersSubsystem.cpp, XSteamMusicSubsystem.cpp, XSteamParentalSettingsSubsystem.cpp, XSteamRemotePlaySubsystem.cpp, XSteamRemoteStorageAsyncActions.cpp, XSteamRemoteStorageSubsystem.cpp, XSteamScreenshotsSubsystem.cpp, XSteamAttribute.cpp, XSteamBoolAttribute.cpp, XSteamCreateSessionCallbackProxy.cpp, XSteamFindSessionsCallbackProxy.cpp, XSteamFloatAttribute.cpp, XSteamIntAttribute.cpp, XSteamJoinSessionCallbackProxy.cpp, XSteamObjectAttribute.cpp, XSteamtNameAttribute.cpp, XSteamtStringAttribute.cpp, XSteamtTextAttribute.cpp, XSteamTimelineAsyncActions.cpp, XSteamTimelineSubsystem.cpp, XSteamUGCAsyncActions.cpp, XSteamUGCSubsystem.cpp, XSteamUserAsyncActions.cpp, XSteamUserSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp, XSteamUtilsSubsystem.cpp, XSteamVideoSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 47 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 25.57 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/47] Compile Resource [x64] Default.rc2
+[2/47] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/47] Compile [x64] XSteamAppTicketSubsystem.cpp
+[4/47] Compile [x64] XSteamAppsSubsystem.cpp
+[5/47] Compile [x64] XSteamAttribute.cpp
+[6/47] Compile [x64] XSteamBoolAttribute.cpp
+[7/47] Compile [x64] XSteamAppsAsyncActions.cpp
+[8/47] Compile [x64] XSteamCreateSessionCallbackProxy.cpp
+[9/47] Compile [x64] XSteamFindSessionsCallbackProxy.cpp
+[10/47] Compile [x64] XSteamFloatAttribute.cpp
+[11/47] Compile [x64] XSteamHTTPAsyncActions.cpp
+[12/47] Compile [x64] XSteamFriendsAsyncActions.cpp
+[13/47] Compile [x64] XSteamFriendsSubsystem.cpp
+[14/47] Compile [x64] XSteamHTTPSubsystem.cpp
+[15/47] Compile [x64] XSteamFunctionLibrary.cpp
+[16/47] Compile [x64] XSteamIntAttribute.cpp
+[17/47] Compile [x64] XSteamInventoryAsyncActions.cpp
+[18/47] Compile [x64] XSteamInventorySubsystem.cpp
+[19/47] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[20/47] Compile [x64] XSteamMatchmakingServersSubsystem.cpp
+[21/47] Compile [x64] XSteamMusicSubsystem.cpp
+[22/47] Compile [x64] XSteamJoinSessionCallbackProxy.cpp
+[23/47] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[24/47] Compile [x64] Module.XSteam.cpp
+[25/47] Compile [x64] XSteamParentalSettingsSubsystem.cpp
+[26/47] Compile [x64] XSteamObjectAttribute.cpp
+[27/47] Compile [x64] XSteamRemotePlaySubsystem.cpp
+[28/47] Compile [x64] XSteamSubsystem.cpp
+[29/47] Compile [x64] XSteamScreenshotsSubsystem.cpp
+[30/47] Compile [x64] XSteamRemoteStorageAsyncActions.cpp
+[31/47] Compile [x64] XSteamTimelineAsyncActions.cpp
+[32/47] Compile [x64] XSteamRemoteStorageSubsystem.cpp
+[33/47] Compile [x64] XSteamTimelineSubsystem.cpp
+[34/47] Compile [x64] XSteamUGCAsyncActions.cpp
+[35/47] Compile [x64] XSteamUGCSubsystem.cpp
+[36/47] Compile [x64] XSteamUserAsyncActions.cpp
+[37/47] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[38/47] Compile [x64] XSteamUserStatsSubsystem.cpp
+[39/47] Compile [x64] XSteamUtilsSubsystem.cpp
+[40/47] Compile [x64] XSteamUserSubsystem.cpp
+[41/47] Compile [x64] XSteamVideoSubsystem.cpp
+[42/47] Compile [x64] XSteamtNameAttribute.cpp
+[43/47] Compile [x64] XSteamtStringAttribute.cpp
+[44/47] Compile [x64] XSteamtTextAttribute.cpp
+[45/47] Link [x64] UnrealEditor-XSteam.lib
+[46/47] Link [x64] UnrealEditor-XSteam.dll
+[47/47] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 55.52 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 84.05 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 23.1kb
+Took 84,46s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteamFunctionLibrary.cpp, XSteamSubsystem.cpp, XSteamAppsAsyncActions.cpp, XSteamAppsSubsystem.cpp, XSteamAppTicketSubsystem.cpp, XSteamFriendsAsyncActions.cpp, XSteamFriendsSubsystem.cpp, XSteamHTTPAsyncActions.cpp, XSteamHTTPSubsystem.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamMatchmakingServersSubsystem.cpp, XSteamMusicSubsystem.cpp, XSteamParentalSettingsSubsystem.cpp, XSteamRemotePlaySubsystem.cpp, XSteamRemoteStorageAsyncActions.cpp, XSteamRemoteStorageSubsystem.cpp, XSteamScreenshotsSubsystem.cpp, XSteamAttribute.cpp, XSteamBoolAttribute.cpp, XSteamCreateSessionCallbackProxy.cpp, XSteamFindSessionsCallbackProxy.cpp, XSteamFloatAttribute.cpp, XSteamIntAttribute.cpp, XSteamJoinSessionCallbackProxy.cpp, XSteamObjectAttribute.cpp, XSteamtNameAttribute.cpp, XSteamtStringAttribute.cpp, XSteamtTextAttribute.cpp, XSteamTimelineAsyncActions.cpp, XSteamTimelineSubsystem.cpp, XSteamUGCAsyncActions.cpp, XSteamUGCSubsystem.cpp, XSteamUserAsyncActions.cpp, XSteamUserSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp, XSteamUtilsSubsystem.cpp, XSteamVideoSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 42 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 28.08 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/42] Compile [x64] XSteamAppTicketSubsystem.cpp
+[2/42] Compile [x64] XSteamAppsAsyncActions.cpp
+[3/42] Compile [x64] XSteamBoolAttribute.cpp
+[4/42] Compile [x64] XSteamAttribute.cpp
+[5/42] Compile [x64] XSteamAppsSubsystem.cpp
+[6/42] Compile [x64] XSteamCreateSessionCallbackProxy.cpp
+[7/42] Compile [x64] XSteamFindSessionsCallbackProxy.cpp
+[8/42] Compile [x64] XSteamFloatAttribute.cpp
+[9/42] Compile [x64] XSteamFriendsAsyncActions.cpp
+[10/42] Compile [x64] XSteamHTTPAsyncActions.cpp
+[11/42] Compile [x64] XSteamFriendsSubsystem.cpp
+[12/42] Compile [x64] Module.XSteam.cpp
+[13/42] Compile [x64] XSteamIntAttribute.cpp
+[14/42] Compile [x64] XSteamInventoryAsyncActions.cpp
+[15/42] Compile [x64] XSteamInventorySubsystem.cpp
+[16/42] Compile [x64] XSteamHTTPSubsystem.cpp
+[17/42] Compile [x64] XSteamFunctionLibrary.cpp
+[18/42] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[19/42] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[20/42] Compile [x64] XSteamObjectAttribute.cpp
+[21/42] Compile [x64] XSteamMatchmakingServersSubsystem.cpp
+[22/42] Compile [x64] XSteamJoinSessionCallbackProxy.cpp
+[23/42] Compile [x64] XSteamMusicSubsystem.cpp
+[24/42] Compile [x64] XSteamParentalSettingsSubsystem.cpp
+[25/42] Compile [x64] XSteamRemoteStorageAsyncActions.cpp
+[26/42] Compile [x64] XSteamRemotePlaySubsystem.cpp
+[27/42] Compile [x64] XSteamSubsystem.cpp
+[28/42] Compile [x64] XSteamTimelineAsyncActions.cpp
+[29/42] Compile [x64] XSteamRemoteStorageSubsystem.cpp
+[30/42] Compile [x64] XSteamScreenshotsSubsystem.cpp
+[31/42] Compile [x64] XSteamUGCAsyncActions.cpp
+[32/42] Compile [x64] XSteamUGCSubsystem.cpp
+[33/42] Compile [x64] XSteamTimelineSubsystem.cpp
+[34/42] Compile [x64] XSteamUserAsyncActions.cpp
+[35/42] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[36/42] Compile [x64] XSteamUserStatsSubsystem.cpp
+[37/42] Compile [x64] XSteamtTextAttribute.cpp
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\CompleteType.h(12,3): error C2027: use of undefined type 'FTextProperty'
+		UE_STATIC_ASSERT_COMPLETE_TYPE(T, "Expected a complete type");
+		^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\UObject\UObjectHierarchyFwd.h(48,8): note: see declaration of 'FTextProperty'
+class		FTextProperty;
+     		^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\CompleteType.h(12,3): note: the template instantiation context (the oldest one first) is
+		UE_STATIC_ASSERT_COMPLETE_TYPE(T, "Expected a complete type");
+		^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,37): note: see reference to function template instantiation 'T *FindFProperty(const UStruct *,FName,EFieldIterationFlags)' being compiled
+		if (FTextProperty* TextProperty = FindFProperty<FTextProperty>(Object->GetClass(), PropertyName))
+		                                  ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h(7393,15): note: while evaluating concept 'CDerivedFrom<FTextProperty,FField>'
+template <UE::CDerivedFrom<FField> T>
+              ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(17,7): note: while evaluating concept 'CCompleteType<FTextProperty>'
+		UE::CCompleteType<DerivedType> &&
+		    ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\CompleteType.h(30,53): note: see reference to function template instantiation 'bool UE::Private::CompleteType::CheckCompleteType<FTextProperty>(void)' being compiled
+	concept CCompleteType = UE::Private::CompleteType::CheckCompleteType<T>();
+	                                                   ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\CompleteType.h(12,3): error C2338: static_assert failed: 'Expected a complete type'
+		UE_STATIC_ASSERT_COMPLETE_TYPE(T, "Expected a complete type");
+		^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(19,8): error C2139: 'FTextProperty': an undefined class is not allowed as an argument to compiler intrinsic type trait '__is_base_of'
+		std::is_base_of_v<BaseType, DerivedType> &&
+		     ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\UObject\UObjectHierarchyFwd.h(48,8): note: see declaration of 'FTextProperty'
+class		FTextProperty;
+     		^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(19,8): note: the template instantiation context (the oldest one first) is
+		std::is_base_of_v<BaseType, DerivedType> &&
+		     ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(19,8): note: see reference to variable template 'const bool is_base_of_v<FField,FTextProperty>' being compiled
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,37): error C2672: 'FindFProperty': no matching overloaded function found
+		if (FTextProperty* TextProperty = FindFProperty<FTextProperty>(Object->GetClass(), PropertyName))
+		                                  ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h(7418,4): note: could be 'T *FindFProperty(const UStruct *,const TCHAR *,EFieldIterationFlags)'
+T* FindFProperty(const UStruct* Owner, const TCHAR* FieldName, EFieldIterationFlags IterationFlags = EFieldIterationFlags::Default)
+   ^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,86): note: 'initializing': cannot convert from 'FName' to 'const TCHAR *'
+		if (FTextProperty* TextProperty = FindFProperty<FTextProperty>(Object->GetClass(), PropertyName))
+		                                                                                   ^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,86): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h(7394,4): note: or       'T *FindFProperty(const UStruct *,FName,EFieldIterationFlags)'
+T* FindFProperty(const UStruct* Owner, FName FieldName, EFieldIterationFlags IterationFlags = EFieldIterationFlags::Default)
+   ^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,37): note: the associated constraints are not satisfied
+		if (FTextProperty* TextProperty = FindFProperty<FTextProperty>(Object->GetClass(), PropertyName))
+		                                  ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\UnrealType.h(7393,11): note: the concept 'UE::CDerivedFrom<FTextProperty,FField>' evaluated to false
+template <UE::CDerivedFrom<FField> T>
+          ^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\Concepts\DerivedFrom.h(19,3): note: the constraint was not satisfied
+		std::is_base_of_v<BaseType, DerivedType> &&
+		^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\CoreUObject\Public\UObject\Field.h(1278,19): note: or       'FieldType *FindFProperty(const TCHAR *)'
+inline FieldType* FindFProperty(const TCHAR* InFieldPath)
+                  ^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(16,37): note: 'FieldType *FindFProperty(const TCHAR *)': expects 1 arguments - 2 provided
+		if (FTextProperty* TextProperty = FindFProperty<FTextProperty>(Object->GetClass(), PropertyName))
+		                                  ^
+B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Source\XSteam\Private\Session\XSteamtTextAttribute.cpp(18,4): error C2027: use of undefined type 'FTextProperty'
+			TextProperty->SetPropertyValue_InContainer(Object, PropertyValue);
+			^
+B:\UnrealEngine\UE_5.8\Engine\Source\Runtime\Core\Public\UObject\UObjectHierarchyFwd.h(48,8): note: see declaration of 'FTextProperty'
+class		FTextProperty;
+     		^
+[38/42] Compile [x64] XSteamUserSubsystem.cpp
+[39/42] Compile [x64] XSteamtNameAttribute.cpp
+[40/42] Compile [x64] XSteamtStringAttribute.cpp
+[41/42] Compile [x64] XSteamUtilsSubsystem.cpp
+[42/42] Compile [x64] XSteamVideoSubsystem.cpp
+Total time in Unreal Build Accelerator local executor: 54.52 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 57.70 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 25.7kb
+Took 57,94s to run dotnet.exe, ExitCode=6
+UnrealBuildTool failed. See log for more details. (C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt)
+AutomationTool executed for 0h 2m 28s
+AutomationTool exiting with ExitCode=6 (6)
+BUILD FAILED
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\XSteamDemo\Plugins\XSteam\XSteam.uplugin  " -Package=B:\Projects\XSteamDemo\Builds\XSteam -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.17 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 441 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteamFunctionLibrary.cpp, XSteamSubsystem.cpp, XSteamAppsAsyncActions.cpp, XSteamAppsSubsystem.cpp, XSteamAppTicketSubsystem.cpp, XSteamFriendsAsyncActions.cpp, XSteamFriendsSubsystem.cpp, XSteamHTTPAsyncActions.cpp, XSteamHTTPSubsystem.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamMatchmakingServersSubsystem.cpp, XSteamMusicSubsystem.cpp, XSteamParentalSettingsSubsystem.cpp, XSteamRemotePlaySubsystem.cpp, XSteamRemoteStorageAsyncActions.cpp, XSteamRemoteStorageSubsystem.cpp, XSteamScreenshotsSubsystem.cpp, XSteamAttribute.cpp, XSteamBoolAttribute.cpp, XSteamCreateSessionCallbackProxy.cpp, XSteamFindSessionsCallbackProxy.cpp, XSteamFloatAttribute.cpp, XSteamIntAttribute.cpp, XSteamJoinSessionCallbackProxy.cpp, XSteamObjectAttribute.cpp, XSteamtNameAttribute.cpp, XSteamtStringAttribute.cpp, XSteamtTextAttribute.cpp, XSteamTimelineAsyncActions.cpp, XSteamTimelineSubsystem.cpp, XSteamUGCAsyncActions.cpp, XSteamUGCSubsystem.cpp, XSteamUserAsyncActions.cpp, XSteamUserSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp, XSteamUtilsSubsystem.cpp, XSteamVideoSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 47 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 19.72 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/47] Compile Resource [x64] Default.rc2
+[2/47] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/47] Compile [x64] XSteamAppTicketSubsystem.cpp
+[4/47] Compile [x64] XSteamAppsAsyncActions.cpp
+[5/47] Compile [x64] XSteamAttribute.cpp
+[6/47] Compile [x64] XSteamBoolAttribute.cpp
+[7/47] Compile [x64] XSteamAppsSubsystem.cpp
+[8/47] Compile [x64] XSteamCreateSessionCallbackProxy.cpp
+[9/47] Compile [x64] XSteamFindSessionsCallbackProxy.cpp
+[10/47] Compile [x64] XSteamFloatAttribute.cpp
+[11/47] Compile [x64] XSteamHTTPAsyncActions.cpp
+[12/47] Compile [x64] XSteamFriendsAsyncActions.cpp
+[13/47] Compile [x64] XSteamFriendsSubsystem.cpp
+[14/47] Compile [x64] XSteamHTTPSubsystem.cpp
+[15/47] Compile [x64] XSteamIntAttribute.cpp
+[16/47] Compile [x64] XSteamFunctionLibrary.cpp
+[17/47] Compile [x64] XSteamInventoryAsyncActions.cpp
+[18/47] Compile [x64] XSteamInventorySubsystem.cpp
+[19/47] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[20/47] Compile [x64] XSteamMatchmakingServersSubsystem.cpp
+[21/47] Compile [x64] XSteamMusicSubsystem.cpp
+[22/47] Compile [x64] XSteamJoinSessionCallbackProxy.cpp
+[23/47] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[24/47] Compile [x64] Module.XSteam.cpp
+[25/47] Compile [x64] XSteamObjectAttribute.cpp
+[26/47] Compile [x64] XSteamParentalSettingsSubsystem.cpp
+[27/47] Compile [x64] XSteamRemotePlaySubsystem.cpp
+[28/47] Compile [x64] XSteamSubsystem.cpp
+[29/47] Compile [x64] XSteamScreenshotsSubsystem.cpp
+[30/47] Compile [x64] XSteamRemoteStorageAsyncActions.cpp
+[31/47] Compile [x64] XSteamRemoteStorageSubsystem.cpp
+[32/47] Compile [x64] XSteamTimelineAsyncActions.cpp
+[33/47] Compile [x64] XSteamTimelineSubsystem.cpp
+[34/47] Compile [x64] XSteamUGCAsyncActions.cpp
+[35/47] Compile [x64] XSteamUGCSubsystem.cpp
+[36/47] Compile [x64] XSteamUserAsyncActions.cpp
+[37/47] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[38/47] Compile [x64] XSteamUserStatsSubsystem.cpp
+[39/47] Compile [x64] XSteamUtilsSubsystem.cpp
+[40/47] Compile [x64] XSteamUserSubsystem.cpp
+[41/47] Compile [x64] XSteamVideoSubsystem.cpp
+[42/47] Compile [x64] XSteamtNameAttribute.cpp
+[43/47] Compile [x64] XSteamtStringAttribute.cpp
+[44/47] Compile [x64] XSteamtTextAttribute.cpp
+[45/47] Link [x64] UnrealEditor-XSteam.lib
+[46/47] Link [x64] UnrealEditor-XSteam.dll
+[47/47] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 54.45 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 62.86 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 20.9kb
+Took 63,26s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteamFunctionLibrary.cpp, XSteamSubsystem.cpp, XSteamAppsAsyncActions.cpp, XSteamAppsSubsystem.cpp, XSteamAppTicketSubsystem.cpp, XSteamFriendsAsyncActions.cpp, XSteamFriendsSubsystem.cpp, XSteamHTTPAsyncActions.cpp, XSteamHTTPSubsystem.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamMatchmakingServersSubsystem.cpp, XSteamMusicSubsystem.cpp, XSteamParentalSettingsSubsystem.cpp, XSteamRemotePlaySubsystem.cpp, XSteamRemoteStorageAsyncActions.cpp, XSteamRemoteStorageSubsystem.cpp, XSteamScreenshotsSubsystem.cpp, XSteamAttribute.cpp, XSteamBoolAttribute.cpp, XSteamCreateSessionCallbackProxy.cpp, XSteamFindSessionsCallbackProxy.cpp, XSteamFloatAttribute.cpp, XSteamIntAttribute.cpp, XSteamJoinSessionCallbackProxy.cpp, XSteamObjectAttribute.cpp, XSteamtNameAttribute.cpp, XSteamtStringAttribute.cpp, XSteamtTextAttribute.cpp, XSteamTimelineAsyncActions.cpp, XSteamTimelineSubsystem.cpp, XSteamUGCAsyncActions.cpp, XSteamUGCSubsystem.cpp, XSteamUserAsyncActions.cpp, XSteamUserSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp, XSteamUtilsSubsystem.cpp, XSteamVideoSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 42 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 19.16 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/42] Compile [x64] XSteamAppTicketSubsystem.cpp
+[2/42] Compile [x64] XSteamAppsAsyncActions.cpp
+[3/42] Compile [x64] XSteamBoolAttribute.cpp
+[4/42] Compile [x64] XSteamAttribute.cpp
+[5/42] Compile [x64] XSteamAppsSubsystem.cpp
+[6/42] Compile [x64] XSteamFindSessionsCallbackProxy.cpp
+[7/42] Compile [x64] XSteamCreateSessionCallbackProxy.cpp
+[8/42] Compile [x64] XSteamFloatAttribute.cpp
+[9/42] Compile [x64] XSteamFriendsAsyncActions.cpp
+[10/42] Compile [x64] XSteamHTTPAsyncActions.cpp
+[11/42] Compile [x64] XSteamFriendsSubsystem.cpp
+[12/42] Compile [x64] Module.XSteam.cpp
+[13/42] Compile [x64] XSteamIntAttribute.cpp
+[14/42] Compile [x64] XSteamInventoryAsyncActions.cpp
+[15/42] Compile [x64] XSteamInventorySubsystem.cpp
+[16/42] Compile [x64] XSteamHTTPSubsystem.cpp
+[17/42] Compile [x64] XSteamFunctionLibrary.cpp
+[18/42] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[19/42] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[20/42] Compile [x64] XSteamMatchmakingServersSubsystem.cpp
+[21/42] Compile [x64] XSteamObjectAttribute.cpp
+[22/42] Compile [x64] XSteamJoinSessionCallbackProxy.cpp
+[23/42] Compile [x64] XSteamMusicSubsystem.cpp
+[24/42] Compile [x64] XSteamParentalSettingsSubsystem.cpp
+[25/42] Compile [x64] XSteamRemoteStorageAsyncActions.cpp
+[26/42] Compile [x64] XSteamRemotePlaySubsystem.cpp
+[27/42] Compile [x64] XSteamSubsystem.cpp
+[28/42] Compile [x64] XSteamTimelineAsyncActions.cpp
+[29/42] Compile [x64] XSteamRemoteStorageSubsystem.cpp
+[30/42] Compile [x64] XSteamScreenshotsSubsystem.cpp
+[31/42] Compile [x64] XSteamUGCAsyncActions.cpp
+[32/42] Compile [x64] XSteamUGCSubsystem.cpp
+[33/42] Compile [x64] XSteamUserAsyncActions.cpp
+[34/42] Compile [x64] XSteamTimelineSubsystem.cpp
+[35/42] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[36/42] Compile [x64] XSteamUserStatsSubsystem.cpp
+[37/42] Compile [x64] XSteamUserSubsystem.cpp
+[38/42] Compile [x64] XSteamtNameAttribute.cpp
+[39/42] Compile [x64] XSteamtStringAttribute.cpp
+[40/42] Compile [x64] XSteamtTextAttribute.cpp
+[41/42] Compile [x64] XSteamUtilsSubsystem.cpp
+[42/42] Compile [x64] XSteamVideoSubsystem.cpp
+
+Total time in Unreal Build Accelerator local executor: 39.04 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame.exe
+
+Result: Succeeded
+Total execution time: 42.22 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 18.1kb
+Took 42,42s to run dotnet.exe, ExitCode=0
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\HostProject.uproject" -plugin="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\XSteam.uplugin" -noubtmakefiles -manifest="B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+Writing manifest to B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSteam unity file: XSteamFunctionLibrary.cpp, XSteamSubsystem.cpp, XSteamAppsAsyncActions.cpp, XSteamAppsSubsystem.cpp, XSteamAppTicketSubsystem.cpp, XSteamFriendsAsyncActions.cpp, XSteamFriendsSubsystem.cpp, XSteamHTTPAsyncActions.cpp, XSteamHTTPSubsystem.cpp, XSteamInventoryAsyncActions.cpp, XSteamInventorySubsystem.cpp, XSteamMatchmakingAsyncActions.cpp, XSteamMatchmakingSubsystem.cpp, XSteamMatchmakingServersSubsystem.cpp, XSteamMusicSubsystem.cpp, XSteamParentalSettingsSubsystem.cpp, XSteamRemotePlaySubsystem.cpp, XSteamRemoteStorageAsyncActions.cpp, XSteamRemoteStorageSubsystem.cpp, XSteamScreenshotsSubsystem.cpp, XSteamAttribute.cpp, XSteamBoolAttribute.cpp, XSteamCreateSessionCallbackProxy.cpp, XSteamFindSessionsCallbackProxy.cpp, XSteamFloatAttribute.cpp, XSteamIntAttribute.cpp, XSteamJoinSessionCallbackProxy.cpp, XSteamObjectAttribute.cpp, XSteamtNameAttribute.cpp, XSteamtStringAttribute.cpp, XSteamtTextAttribute.cpp, XSteamTimelineAsyncActions.cpp, XSteamTimelineSubsystem.cpp, XSteamUGCAsyncActions.cpp, XSteamUGCSubsystem.cpp, XSteamUserAsyncActions.cpp, XSteamUserSubsystem.cpp, XSteamUserStatsAsyncActions.cpp, XSteamUserStatsSubsystem.cpp, XSteamUtilsSubsystem.cpp, XSteamVideoSubsystem.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 42 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 18.76 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/42] Compile [x64] XSteamAppTicketSubsystem.cpp
+[2/42] Compile [x64] XSteamBoolAttribute.cpp
+[3/42] Compile [x64] XSteamAppsAsyncActions.cpp
+[4/42] Compile [x64] XSteamAttribute.cpp
+[5/42] Compile [x64] XSteamAppsSubsystem.cpp
+[6/42] Compile [x64] XSteamCreateSessionCallbackProxy.cpp
+[7/42] Compile [x64] XSteamFindSessionsCallbackProxy.cpp
+[8/42] Compile [x64] XSteamFloatAttribute.cpp
+[9/42] Compile [x64] XSteamFriendsAsyncActions.cpp
+[10/42] Compile [x64] XSteamHTTPAsyncActions.cpp
+[11/42] Compile [x64] XSteamFriendsSubsystem.cpp
+[12/42] Compile [x64] XSteamIntAttribute.cpp
+[13/42] Compile [x64] XSteamInventoryAsyncActions.cpp
+[14/42] Compile [x64] XSteamInventorySubsystem.cpp
+[15/42] Compile [x64] XSteamFunctionLibrary.cpp
+[16/42] Compile [x64] XSteamHTTPSubsystem.cpp
+[17/42] Compile [x64] Module.XSteam.cpp
+[18/42] Compile [x64] XSteamMatchmakingAsyncActions.cpp
+[19/42] Compile [x64] XSteamMatchmakingSubsystem.cpp
+[20/42] Compile [x64] XSteamObjectAttribute.cpp
+[21/42] Compile [x64] XSteamJoinSessionCallbackProxy.cpp
+[22/42] Compile [x64] XSteamMatchmakingServersSubsystem.cpp
+[23/42] Compile [x64] XSteamMusicSubsystem.cpp
+[24/42] Compile [x64] XSteamParentalSettingsSubsystem.cpp
+[25/42] Compile [x64] XSteamRemoteStorageAsyncActions.cpp
+[26/42] Compile [x64] XSteamSubsystem.cpp
+[27/42] Compile [x64] XSteamRemotePlaySubsystem.cpp
+[28/42] Compile [x64] XSteamTimelineAsyncActions.cpp
+[29/42] Compile [x64] XSteamScreenshotsSubsystem.cpp
+[30/42] Compile [x64] XSteamRemoteStorageSubsystem.cpp
+[31/42] Compile [x64] XSteamUGCAsyncActions.cpp
+[32/42] Compile [x64] XSteamTimelineSubsystem.cpp
+[33/42] Compile [x64] XSteamUserAsyncActions.cpp
+[34/42] Compile [x64] XSteamUserStatsAsyncActions.cpp
+[35/42] Compile [x64] XSteamUGCSubsystem.cpp
+[36/42] Compile [x64] XSteamUserStatsSubsystem.cpp
+[37/42] Compile [x64] XSteamtNameAttribute.cpp
+[38/42] Compile [x64] XSteamUtilsSubsystem.cpp
+[39/42] Compile [x64] XSteamtStringAttribute.cpp
+[40/42] Compile [x64] XSteamtTextAttribute.cpp
+[41/42] Compile [x64] XSteamUserSubsystem.cpp
+[42/42] Compile [x64] XSteamVideoSubsystem.cpp
+
+Total time in Unreal Build Accelerator local executor: 32.01 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame-Win64-Shipping.exe
+
+Result: Succeeded
+Total execution time: 33.60 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 17.4kb
+Took 33,77s to run dotnet.exe, ExitCode=0
+Reading filter rules from B:\Projects\XSteamDemo\Builds\XSteam\HostProject\Plugins\XSteam\Config\FilterPlugin.ini
+Loading FilterPluginWin64.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 2m 20s
+AutomationTool exiting with ExitCode=0 (Success)
